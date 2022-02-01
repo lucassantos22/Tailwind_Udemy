@@ -12,6 +12,59 @@
         <p>O texto do container</p>
     </div>
     <!-- Exercício 1 -->
-    <div class="container mx-auto bg-green-300 md:bg-blue-300 p-6"></div>
+    <div class="container mx-auto bg-green-300 md:bg-blue-300 p-6 border-blue-900 border-2"></div>
+    <div class="container bg-purple-700 mx-auto m-4 border-box border-2 border-purple-900 p-10">
+        <p>Border Box</p>
+    </div>
+    <div class="container bg-teal-400 mx-auto m-4 box-content border-2 border-teal-900 p-10">
+        <p>Border Content</p>
+    </div>
+    <!-- Exercício 2 -->
+    <div class="container mx-auto bg-blue-500 m-6 p-6">
+        <div class="inline-block bg-red-500">Inline 1</div>
+        <div class="inline-block bg-purple-500">Inline 2</div>
+        <div class="inline-block bg-yellow-500">Inline 3</div>
+    </div>
+    <div class="clearfix">
+        <div class="bg-gray-500 float-right">Float right</div>
+        <div class="bg-gray-500 float-right">Float right</div>
+    </div>
+    <div class="overflow-hidden h-16 m-6 bg-red-300">
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+    </div>
+    <div class="overflow-y-auto h-16 m-6 bg-red-300">
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+    </div>
+
+    <!-- Positions -->
+    <div class="relative bg-pink-800">
+        Teste
+        <div class="absolute top-0 right-0 bg-pink-300">
+            Absolute
+        </div>
+    </div>
+
+    <!-- Exercício 3 -->
+    <div class="container h-10 m-10 bg-red-400 relative">
+        Container
+        <div class="absolute bottom-0 right-0 bg-blue-500">Div</div>
+    </div>
+
+    <!-- z-index = z-10 (exemplo) -->
+
+    <!-- Exercício 4 -->
+    <div class="container mx-auto p-10 bg-orange-400 relative">
+        aaaa
+        <div class="absolute bg-red-500 z-1">Div 1</div>
+        <div class="absolute bg-blue-500 z-2 m-4">Div 2</div>
+        <div class="absolute bg-purple-500 z-3 m-8">Div 3</div>
+    </div>
+
 </body>
 </html>
